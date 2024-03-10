@@ -33,11 +33,9 @@ export default new Vuex.Store({
                 img: "mns.jpg",
                 url: null,
             },
-
         ],
 
         libraryLogos: [
-           
             {
                 path: 'nodejs.png',
                 toolTip: 'Node.js'
@@ -56,7 +54,7 @@ export default new Vuex.Store({
             },
             {
                 path: 'html5.png',
-                toolTip: 'Express.js'
+                toolTip: 'HTML5'
             },
             {
                 path: 'postgresql.png',

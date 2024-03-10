@@ -17,14 +17,6 @@
                     mdi-chevron-double-up
                 </v-icon>
             </v-btn>
-            <!-- <p class='copyright'>AABID SOFI 
-                <span>
-                    <v-icon color="primary" class='copyright-icon my-auto' size='16px'>
-                        mdi-copyright 
-                    </v-icon>{{ year }}
-                </span> 
-            </p> -->
-
         </v-container>
     </v-footer>
 </template>
@@ -63,8 +55,6 @@
 </script>
 <style scoped>
 
-
-
 #footer {
     background-color:var(--main-bg-color);
 }
@@ -83,11 +73,8 @@
     height: 40x;
 }
 
-
-
 .up{
     height:44px;
-    /* background-color: var(--accent-color); */
     margin: auto;
     margin-top:-18px;
     
@@ -95,7 +82,6 @@
 .copyright{
     margin-top:5px;
     font-size:16px;
-    /* text-align: center; */
     color:var(--gray);
     font-weight:bold;
     text-align: left;
@@ -103,11 +89,6 @@
 .copyright>span{
     color :var(--highlight-color);
 }
-
-/* .copyright-icon{
-     color : white;
-     background-color: var(--highlight-color);
-} */
 
 .credit{
     padding-block: 10px;

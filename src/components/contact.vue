@@ -14,7 +14,7 @@
                      Connect
                  </h2>
                  <p>
-                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque nam assumenda odio velit mollitia facere officia amet adipisci modi maxime dolore iusto earum eaque id autem totam unde voluptates ducimus ut error quos, ipsa animi. Dolorem, doloribus iusto! Nostrum, voluptatem.\
+                    Say stuff
                  </p>
             </v-col>
            

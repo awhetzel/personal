@@ -26,8 +26,8 @@
                 <h2 id="title"> Libraries </h2>
             </v-col>
 
-            <div v-for='(chunk, index) in libraryLogoChunks' :key='index'  >
-                <v-col v-for='logo in chunk' :key='logo.path'  sm="12" md="40" >
+            <div v-for='(chunk, index) in libraryLogoChunks' :key='index'>
+                <v-col v-for='logo in chunk' :key='logo.path' sm="12" md="40">
                     <v-tooltip left>
                         <template v-slot:activator="{ on }">
                             <v-img :src=image_path(logo) max-width="100px" contain v-on="on" class="pl-2"> </v-img>
@@ -59,10 +59,6 @@ export default {
     }
 }
 
-
-
-
-
 </script>
 
 <style lang="scss" scoped>
@@ -84,21 +80,18 @@ $medium: 900px;
 
     }
 
-
     @media screen and (min-width:$small) {
         padding: 10%;
 
         #title {
             width: 100vw;
         }
-
-       
     }
 
     @media screen and (min-width:$medium) {
         padding-block: 10%;
         padding-left: 15%;
-       
+
     }
 
     .service-names {
@@ -120,15 +113,7 @@ $medium: 900px;
         }
     }
 
-    .library-logos{
-        // margin-block-start: 1em;
-        // margin-right: 100px;
-        // margin-left: 50px;
-       // padding: 10%;
-       
-    }
-
-    .extra-rows{
+    .extra-rows {
         margin-top: 80px;
     }
 
