@@ -20,7 +20,7 @@ export default new Vuex.Store({
             {
                 name: "House of Design",
                 description: "Industrial Robotics, SAAS",
-                role: "Software Engineer",
+                role: "Software Engineer (2018 - 2022)",
                 tech_stack: ["html5", "nodejs", "mongodb", "express"],
                 img: 'hod.jpg',
                 url: "https://thehouseofdesign.com/"
@@ -28,7 +28,7 @@ export default new Vuex.Store({
             {
                 name: "Medical Network Solutions ",
                 description: "SASS solution for facility management and compliance",
-                role: "Software Engineer",
+                role: "Software Engineer (2022 - 2024)",
                 tech_stack: ["Django"],
                 img: "mns.jpg",
                 url: null,

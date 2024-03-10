@@ -20,9 +20,8 @@
                     hikes with my family, and immersing myself in video games.
                 </p>
             </v-col>
-            <v-col class="col-xs-12">
-                <v-img src="../assets/portrait2.jpg" max-width="500px" contain>
-
+            <v-col class="col-xs-12 portrait">
+                <v-img src="../assets/portrait.jpg" max-width="500px" contain>
                 </v-img>
             </v-col>
         </v-row>
@@ -38,7 +37,7 @@ export default {
 
 <style lang="scss" scoped>
 #about {
-    padding-left: 10%;
+    padding-left: 5%;
 
     h2 {
         text-transform: uppercase;
@@ -53,6 +52,11 @@ export default {
         font-weight: 400;
         color: var(--gray);
         font-size: 1.3em;
+    }
+
+    .portrait{
+        padding-top: 5%;
+        padding-left: 2%;
     }
 }
 </style>

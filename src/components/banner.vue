@@ -3,10 +3,7 @@
           
           <div class="intro">
             <h1 class="heading ma-0 pa-0 "> Aaron Whetzel </h1>
-            <h2 class="secondary-text"> Dedicated <span> Software Engineer </span> with over 5 years of experience spanning several tech stacks</h2>
-            <!-- <v-btn color="accent" outlined class="btn my-8">
-                View more 
-            </v-btn> -->
+            <h2 class="secondary-text"> Skilled Software Engineer with 5+ years of experience across multiple tech stacks.</h2>
           </div>
     </div>
 </template>
