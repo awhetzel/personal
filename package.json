@@ -3,11 +3,11 @@
   "version": "0.1.1",
   "private": true,
   "engines": {
-    "node": "21.6.1",
+    "node": "16.18.1",
     "npm": "10.2.x"
   },
   "scripts": {
-    "serve": "vue-cli-service serve --openssl-legacy-provider",
+    "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
