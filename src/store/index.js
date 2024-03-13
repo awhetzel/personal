@@ -13,7 +13,7 @@ export default new Vuex.Store({
             },
             {
                 icon: 'mdi-github',
-                src: '#'
+                src: 'https://github.com/awhetzel/personal'
             },
         ],
         projects: [
