@@ -29,7 +29,7 @@ export default new Vuex.Store({
                 name: "Medical Network Solutions ",
                 description: "SaaS solution for facility management and compliance",
                 role: "Software Engineer (2022 - 2024)",
-                tech_stack: ["Django"],
+                tech_stack: ["html5"],
                 img: "mns.jpg",
                 url: null,
             },
@@ -67,7 +67,7 @@ export default new Vuex.Store({
             {
                 path: 'flask.png',
                 toolTip: 'Flask'
-            }
+            },
         ]
     },
     getters: {

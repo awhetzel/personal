@@ -15,7 +15,7 @@
             <v-col class="service-names " xs="12" sm="12" md="4">
                 <p>C</p>
                 <p> Python</p>
-                <p> Apex </p>
+                <p> Typescript </p>
             </v-col>
 
         </v-row>
@@ -72,7 +72,6 @@ $medium: 900px;
     background-color: white;
 
     #title {
-        //    width:100vw;
         text-transform: uppercase;
         font-weight: bold;
         color: var(--accent-color);
